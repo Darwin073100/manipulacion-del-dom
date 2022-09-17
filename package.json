@@ -1,0 +1,11 @@
+{
+  "name": "project-1-manipulacion-dom",
+  "version": "1.0.0",
+  "description": "Consumo de una API para manipular el DOM",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "edwinegq@outlook.com",
+  "license": "MIT"
+}
