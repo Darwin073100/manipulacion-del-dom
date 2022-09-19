@@ -1,7 +1,8 @@
 //import './main.css';
 import '@styles/main.css';
 
-const url = "http://localhost:8090/persona/all";
+//const url = "http://localhost:8090/persona/all";
+const url = process.env.API;
 const description = `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 Vel provident voluptatum, sed, quae enim inventore ipsum non unde`;
 const src = "assets/images/file-manager.svg";
