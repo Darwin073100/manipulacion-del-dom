@@ -2,7 +2,7 @@
 const url = 'http://localhost:8090/persona/all';
 const description = `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 Vel provident voluptatum, sed, quae enim inventore ipsum non unde`;
-const image = 'http://127.0.0.1:5500/project-1-manipulacion-dom/public/file-manager.svg';
+const src = '../assets/file-manager.svg';
 
 
 // Web api
@@ -19,7 +19,7 @@ Persona().then((data) => {
 
     data.forEach(d => {
         const image = document.createElement('img');
-        image.src =  image;
+        image.src =  src;
         const name = document.createElement('h2');
         name.textContent = d.nombre +' '+ d.apellidos;
         const text = document.createElement('p');
