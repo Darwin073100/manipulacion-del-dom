@@ -1,9 +1,10 @@
-import './main.css';
+//import './main.css';
+import '@styles/main.css';
 
 const url = "http://localhost:8090/persona/all";
 const description = `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 Vel provident voluptatum, sed, quae enim inventore ipsum non unde`;
-const src = "../assets/file-manager.svg";
+const src = "assets/images/file-manager.svg";
 
 // Web api
 async function Persona() {
